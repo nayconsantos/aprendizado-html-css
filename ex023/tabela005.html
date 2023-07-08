@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 005</title>
+    <style>
+        table{
+            width: 600px;
+            height: 180px;
+            border-collapse: collapse;
+        }
+        th, td{
+            text-align: center;
+            border: 1px solid black;
+        }
+        .cnome{
+            background-color: lightblue;
+        }
+        .container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com Tabelas Responsivas</h1>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="cnome" span="4">
+                <col class="cidade">
+                <col class="csexo">
+                <col class="cprof">
+        
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Francisco</td>
+                <td>23</td>
+                <td>Masculino</td>
+                <td>Pedreiro</td>
+            </tr>
+            <tr>
+                <td>Bernardo</td>
+                <td>43</td>
+                <td>Masculino</td>
+                <td>Bankeiro</td>
+            </tr>
+            <tr>
+                <td>Francisca</td>
+                <td>34</td>
+                <td>Feminino</td>
+                <td>Empreendedora</td>
+            </tr>
+            <tr>
+                <td>Erika</td>
+                <td>23</td>
+                <td>Femenino</td>
+                <td>Programadora</td>
+            </tr>
+    </div>
+    </table>
+</body>
+</html>

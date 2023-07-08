@@ -1,0 +1,94 @@
+<!---Como eu procurei muitas vezes a resolução desse desafio no material do pdf até quase ficar louco e não encontrar kkkk resolvi deixar a maneira que eu encontrei para esse desafio não sei se realmente é isso mais visualmente ficou igual kkk-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 003 </title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 600px;
+        }
+        th.destaque{
+            background-color: rgb(112, 107, 107);
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        th.esquerda{
+            text-align: left;
+            background-color: rgb(112, 107, 107);
+        }
+        td.media{
+            background-color: rgb(112, 107, 107);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="row" class="destaque">Area</th>
+                <th rowspan="2" scope="row" class="destaque">Disciplina</th>
+                <th colspan="2" scope="rowgroup" class="destaque">Notas</th>
+                <th rowspan="2" scope="row" class="destaque">Media</th>
+            </tr>
+
+            <th class="destaque">Nota 1</th>
+            <th class="destaque">Nota 2</th>
+            <tr>
+                <th scope="colgroup" rowspan="4">Exatas</th>
+                <td >Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="esquerda" class="destaque">Media de Extras</th>
+                <td class="media">0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Humanas</th>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="esquerda">Media de Humanas</th>
+                <td class="media">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
