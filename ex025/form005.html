@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 005</title>
+</head>
+<body>
+    <h1>Exmplos de Formulario</h1>
+    <form action="cadastro.pgp">
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <input type="radio" name="sexo" id="imas" checked value="M">
+                <label for="imas">Masculino</label>
+
+                <input type="radio" name="sexo" id="ifem" value="F">
+                <label for="ifem">Femenino</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esporte Preferido</legend>
+            <div>
+                <label for="ifut">Futebol</label>
+                <input type="checkbox" name="ifut" id="ifut" value="Futebol">
+            </div>
+            <br>
+            <div>
+                <label for="ivol">Volei</label>
+                <input type="checkbox" name="ivol" id="ivol">
+            </div>
+            <br>
+            <div>
+                <label for="ibas">Basquete</label>
+                <input type="checkbox" name="ibas" id="ibas">
+            </div>
+
+        </fieldset>
+        <br>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
