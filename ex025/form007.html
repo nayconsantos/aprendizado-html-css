@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 007</title>
+</head>
+<body>
+    <h1>Formulario 007</h1>
+    <form action="cadastro.php">
+        <div>
+            <label for="ies">Estado</label>
+            <select name="estado" id="ies" required>
+                
+                <option value="" selected>-----Escolha-----</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="Sp">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="profissao" id="iprof" list="lsprof" required>
+            <datalist id="lsprof">
+                <option >Adiministração</option>
+                <option >Jogador</option>
+                <option >Vendedor</option>
+                <option >Uber</option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="imsg">Mensagem:</label>
+            <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" required placeholder="Digite uma Mensagem"></textarea>
+        </div>
+        <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
