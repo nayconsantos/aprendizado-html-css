@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*Estilos para Telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    color: white;
+    background-color: rgb(10, 10, 10);
+}
+header > h1{
+    text-align: center;
+}
+menu{
+    background-color: rgb(255, 255, 255);
+}
+menu ul {
+    text-decoration: dashed;
+}
+menu li{
+    display: inline-block;
+    padding-right: 15px;
+    color: black;
+    padding: 10px;
+    background-color: brown;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
