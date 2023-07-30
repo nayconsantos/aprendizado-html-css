@@ -14,8 +14,8 @@
         background-image: url(../imagens/back-print.jpg); /* Desnecessario essa imagem*/
     }
     main{
-        border: 2px solid black;
         width: 100vw;
+        border: 2px solid black;
     }
     main h1{
         text-shadow: none;
