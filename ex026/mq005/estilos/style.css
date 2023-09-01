@@ -12,6 +12,9 @@ body, html {
 header{
     background-color: gray;
 }
+header > h1{
+    text-align: center;
+}
 i#burguer{
     background-color: rgb(39, 38, 38);
     display: block;
