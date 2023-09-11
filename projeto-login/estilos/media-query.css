@@ -21,6 +21,8 @@
         float: right;
         width: 70%;
     }
+
+
     div#formulario > p{
         font-size: 1.2em;
         font-weight: 550;
@@ -49,6 +51,7 @@
         float: left;
         width: 50%;
     }
+
     div#formulario > p{
         font-size: 1.2em;
     
